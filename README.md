@@ -1,4 +1,7 @@
-# NextWatch AI
+# 🎬 NextWatch AI
+
+[![Streamlit App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://samridhi060-nextwatch-ai-app-j7ueae.streamlit.app/)
+
 
 NextWatch AI is an intelligent movie recommendation system that leverages machine learning and rich movie metadata to suggest films tailored to user preferences. Powered by the TMDB 5000 dataset, this project uses Python and Jupyter Notebook to analyze movie content and generate personalized recommendations.
 
