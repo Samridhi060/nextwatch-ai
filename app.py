@@ -3,6 +3,24 @@ import pickle
 import pandas as pd
 import requests
 import re
+import os
+import gdown
+
+
+# Define file URLs and local paths
+files = {
+    "similarity.pkl": "https://drive.google.com/uc?id=1DhbxL-uXvalPlHKrY5co3lS1g11uEJy6",
+    "movies.pkl": "https://drive.google.com/uc?id=108_pnIYX9_MRh6GzkcjS7lORbkQYBpJi"
+}
+
+# Download files if not already present
+for filename, url in files.items():
+    if not os.path.exists(filename):
+        print(f"Downloading {filename}...")
+        gdown.download(url, filename, quiet=False)
+    else:
+        print(f"{filename} already exists. Skipping download.")
+
 
 
 # 1. Load DataFrame
