@@ -1,7 +1,3 @@
-Here's a polished and enhanced README file for your **NextWatch AI** project that highlights the key info clearly, professionally, and ready for GitHub or any repo hosting platform:
-
----
-
 # NextWatch AI
 
 NextWatch AI is an intelligent movie recommendation system that leverages machine learning and rich movie metadata to suggest films tailored to user preferences. Powered by the TMDB 5000 dataset, this project uses Python and Jupyter Notebook to analyze movie content and generate personalized recommendations.
